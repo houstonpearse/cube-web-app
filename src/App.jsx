@@ -12,8 +12,7 @@ function App() {
   return (
     <Canvas shadows camera={{ position: [2, 2, 2] }}>
       <color attach="background" args={["white"]} />
-
-      <Cube position={[0, 0, 0]} args={[1, 1, 1]} />
+      <Cube />
       <Lights />
       <ContactShadows
         position={[0, -1.5, 0]}
