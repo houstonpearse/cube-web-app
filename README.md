@@ -2,6 +2,12 @@
 
 A small project using r3f(react three fiber) to build an interactive cube!
 
+## Tech
+
+React, Three JS, React Three Fiber, React Spring
+
+Vite
+
 ## Run Locally
 
 Clone the project
