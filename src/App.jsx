@@ -15,7 +15,7 @@ function App() {
       <Cube />
       <Lights />
       <ContactShadows
-        position={[0, -1.5, 0]}
+        position={[0, -2.5, 0]}
         opacity={0.75}
         scale={10}
         blur={2.5}
