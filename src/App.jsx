@@ -3,14 +3,13 @@ import {
   OrbitControls,
   ContactShadows,
   Environment,
-  Stage,
 } from "@react-three/drei";
 import Cube from "./components/Cube";
 import Lights from "./components/Lights";
 
 function App() {
   return (
-    <Canvas shadows camera={{ position: [2, 2, 2] }}>
+    <Canvas shadows camera={{ position: [5, 5, 5] }}>
       <color attach="background" args={["white"]} />
       <Cube />
       <Lights />
@@ -22,7 +21,6 @@ function App() {
         far={4}
       />
       <Environment preset="city" />
-
       <OrbitControls
         makeDefault
         minPolarAngle={Math.PI / 4}
