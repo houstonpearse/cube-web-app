@@ -1,9 +1,8 @@
-import { animated } from "@react-spring/three";
 const colors = ["red", "#f7aa36", "white", "yellow", "blue", "#6af752"];
 
 export default function Cubit({ position, rotation, scale, ...rest }) {
   return (
-    <animated.mesh
+    <mesh
       {...rest}
       rotation={rotation}
       position={position}
@@ -19,6 +18,6 @@ export default function Cubit({ position, rotation, scale, ...rest }) {
           color={color}
         />
       ))}
-    </animated.mesh>
+    </mesh>
   );
 }
