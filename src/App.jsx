@@ -1,9 +1,5 @@
 import { Canvas } from "@react-three/fiber";
-import {
-  OrbitControls,
-  ContactShadows,
-  Environment,
-} from "@react-three/drei";
+import { OrbitControls, ContactShadows, Environment } from "@react-three/drei";
 import Cube from "./components/Cube";
 import Lights from "./components/Lights";
 
@@ -11,7 +7,7 @@ function App() {
   return (
     <Canvas shadows camera={{ position: [5, 5, 5] }}>
       <color attach="background" args={["white"]} />
-      <Cube />
+      <Cube castShadow receiveShadow />
       <Lights />
       <ContactShadows
         position={[0, -2.5, 0]}
