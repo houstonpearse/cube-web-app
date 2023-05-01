@@ -5,8 +5,8 @@ import Lights from "./components/Lights";
 
 function App() {
   return (
-    <Canvas shadows camera={{ position: [5, 5, 5] }}>
-      <color attach="background" args={["white"]} />
+    <Canvas shadows camera={{ position: [5, 3, -2] }}>
+      <color attach="background" args={["#c099cf"]} />
       <Cube castShadow receiveShadow />
       <Lights />
       <ContactShadows
