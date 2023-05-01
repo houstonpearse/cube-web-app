@@ -5,9 +5,9 @@ import { DirectionalLightHelper } from "three";
 export default function Lights() {
   return (
     <group>
-      <ambientLight intensity={0.5} />
-      <spotLight position={[3, 4, 5]} />
-      <spotLight position={[-3, -3, -1]} />
+      <ambientLight intensity={0.8} />
+      <spotLight castShadow intensity={0.3} position={[3, 3, 5]} />
+      <spotLight castShadow intensity={0.3} position={[-3, 3, -1]} />
     </group>
   );
 }
