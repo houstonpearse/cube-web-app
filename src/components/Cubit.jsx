@@ -1,8 +1,8 @@
-const colors = ["red", "#f7aa36", "white", "yellow", "blue", "#6af752"];
-
-export default function Cubit({ position, rotation, scale, ...rest }) {
+// const colors = ["#6af752", "blue", "white", "yellow", "#f7aa36", "red"];
+const colors = ["#2cbf13", "blue", "white", "yellow", "#fc9a05", "red"];
+export default function Cubit(props) {
   return (
-    <mesh {...rest} rotation={rotation} position={position} scale={scale}>
+    <mesh {...props}>
       <boxGeometry />
       {colors.map((color, index) => (
         <meshStandardMaterial
