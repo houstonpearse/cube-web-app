@@ -19,6 +19,7 @@ function App() {
       <Environment preset="city" />
       <OrbitControls
         makeDefault
+        enableZoom={false}
         minPolarAngle={Math.PI / 4}
         maxPolarAngle={(5 * Math.PI) / 8}
       />
