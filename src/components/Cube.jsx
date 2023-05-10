@@ -39,8 +39,6 @@ export default function Cube(props) {
           position={properties.position}
           scale={properties.scale}
           onClick={() => handleClick(index)}
-          castShadow
-          receiveShadow
         />
       ))}
     </group>
