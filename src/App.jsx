@@ -16,7 +16,7 @@ function App() {
         blur={2.5}
         far={4}
       />
-      <Environment preset="city" />
+      {/*<Environment preset="city" />*/}
       <OrbitControls
         makeDefault
         enableZoom={false}
